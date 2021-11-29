@@ -7,7 +7,8 @@ Model building, training as well as validation has been included in the notebook
 
 Download the tfrecord files from [here](https://drive.google.com/drive/folders/1eQ3qvM6wpvsL4XbREGfVfJhybDWjUapH?usp=sharing) and move to "100K_tfrecords_v3" folder before training.
 
-Preferred versions:
+### Preferred versions (python packages):
+---
 
-Tensorflow => 2.4.1
-Numpy => 1.19.5
+- Tensorflow => 2.4.1
+- Numpy => 1.19.5
