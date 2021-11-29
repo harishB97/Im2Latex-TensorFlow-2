@@ -1,5 +1,5 @@
 # Im2Markup-TF2
-Tensorflow 2 implementation of Im2Markup model described in 2017  ICML paper "Image-to-Markup Generation with Coarse-to-Fine Attention"
+Tensorflow 2 implementation of Im2Markup model described in 2017  ICML paper "[Image-to-Markup Generation with Coarse-to-Fine Attention](https://arxiv.org/abs/1609.04938)"
 
 The model has been built using the original implementation from [here](https://github.com/harvardnlp/im2markup) and Tensorflow-1 implementation from [here](https://github.com/aspnetcs/myim2latex-tensorflow-docker) as references.
 
