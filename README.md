@@ -1,15 +1,15 @@
-# Image2Latex-TF2
+# Im2Markup-TF2
 Tensorflow 2 implementation of Im2Markup model described in 2017  ICML paper "Image-to-Markup Generation with Coarse-to-Fine Attention"
 
 The model has been built using the original implementation from [here](https://github.com/harvardnlp/im2markup) and Tensorflow-1 implementation from [here](https://github.com/aspnetcs/myim2latex-tensorflow-docker) as references.
 
-Model Summary:
+## Model Summary:
 
 Model: "model"
 __________________________________________________________________________________________________
-Layer (type)                    Output Shape         Param #     Connected to                     
+Layer (type)                    Output Shape         Param       Connected to                     
 ==================================================================================================
-input_1 (InputLayer)            [(None, None, None,  0                                            
+input_1 (InputLayer)            (None, None, None,  0                                            
 __________________________________________________________________________________________________
 tf.math.subtract (TFOpLambda)   (None, None, None, 1 0           input_1[0][0]                    
 __________________________________________________________________________________________________
@@ -61,7 +61,7 @@ tf.__operators__.getitem_2 (Sli ()                   0           tf.compat.v1.sh
 __________________________________________________________________________________________________
 tf.__operators__.getitem_3 (Sli ()                   0           tf.compat.v1.shape_3[0][0]       
 __________________________________________________________________________________________________
-input_2 (InputLayer)            [(None, None)]       0                                            
+input_2 (InputLayer)              (None, None)       0                                            
 __________________________________________________________________________________________________
 tf.reshape (TFOpLambda)         (None, None, None)   0           rnn[0][0]                        
                                                                  tf.__operators__.getitem[0][0]   
@@ -73,7 +73,7 @@ tf.reshape_1 (TFOpLambda)       (None, None, None)   0           rnn_1[0][0]
 __________________________________________________________________________________________________
 embedding (Embedding)           (None, None, 80)     40320       input_2[0][0]                    
 __________________________________________________________________________________________________
-input_3 (InputLayer)            [(None, None, 1536)] 0                                            
+input_3 (InputLayer)            (None, None, 1536)   0                                            
 __________________________________________________________________________________________________
 concatenate (Concatenate)       (None, None, None)   0           tf.reshape[0][0]                 
                                                                  tf.reshape_1[0][0]               
