@@ -1,7 +1,8 @@
-# Im2Markup-TF2
-Tensorflow 2 implementation of Im2Markup model described in 2017  ICML paper **"[Image-to-Markup Generation with Coarse-to-Fine Attention](https://arxiv.org/abs/1609.04938)"**
+# Im2Latex-TensorFlow-2
+TensorFlow-2 implementation of Im2Latex deep learning model described in HarvardNLP paper **"[What You Get Is What You See:
+A Visual Markup Decompiler]([https://arxiv.org/abs/1609.04938](https://arxiv.org/pdf/1609.04938v1.pdf))"**
 
-The model has been built referring the original implementation from **[here](https://github.com/harvardnlp/im2markup)** and Tensorflow-1 implementation from **[here](https://github.com/aspnetcs/myim2latex-tensorflow-docker)** as references.
+The model has been built referring the original implementation from **[here](https://github.com/harvardnlp/im2markup)** and TensorFlow-1 implementation from **[here](https://github.com/aspnetcs/myim2latex-tensorflow-docker)** as references.
 
 Model building, training as well as validation has been included in the notebook "Im2Markup_tf2.ipynb"
 
