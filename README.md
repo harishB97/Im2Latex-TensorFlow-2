@@ -2,7 +2,7 @@
 TensorFlow-2 implementation of Im2Latex deep learning model described in HarvardNLP paper **"[What You Get Is What You See:
 A Visual Markup Decompiler]([https://arxiv.org/abs/1609.04938](https://arxiv.org/pdf/1609.04938v1.pdf))"** which can latex code from images of mathematical expressions 
 
-The model has been built referring the original implementation from **[here](https://github.com/harvardnlp/im2markup)** and TensorFlow-1 implementation from **[here](https://github.com/aspnetcs/myim2latex-tensorflow-docker)** as references.
+The model has been built referring the original implementation from **[here](https://github.com/harvardnlp/im2markup)** and TensorFlow-1 implementation from **[here](https://github.com/aspnetcs/myim2latex-tensorflow-docker)**.
 
 Model building, training as well as validation has been included in the notebook "Im2Markup_tf2.ipynb"
 
