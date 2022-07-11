@@ -4,7 +4,7 @@ A Visual Markup Decompiler]([https://arxiv.org/abs/1609.04938](https://arxiv.org
 
 The model has been built referring the **[Original implementation by HarvardNLP in Torch (Lua)](https://github.com/harvardnlp/im2markup)** and **[TensorFlow-1 implementation](https://github.com/ritheshkumar95/im2latex-tensorflow)**.
 
-Download the images files from **[here](https://drive.google.com/file/d/18JW6Dn0M1T_YiANeMfM14tjXMnAXxt-l/view?usp=sharing)** and move to "100K_tfrecords_v3" folder before training.
+Download the images files from **[here](https://drive.google.com/file/d/18JW6Dn0M1T_YiANeMfM14tjXMnAXxt-l/view?usp=sharing)** and move to "Images" folder before training.
 
 ### Preferred versions (python packages):
 ---
