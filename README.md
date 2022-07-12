@@ -20,6 +20,10 @@ Download the data from **[this link](https://drive.google.com/file/d/18JW6Dn0M1T
 <img src="media\result22.jpg" width="80%" height="80%" align="center">
 <img src="media\result21.jpg" width="80%" height="80%" align="center">
 
+## Training and evaluating the model
+---
+Step to train and evaluate the model has been given in the notebooks "im2latex_train.ipynb" and "im2latex_test.ipynb" respectively
+
 ## Model Performance
 ---
 ### BLEU score
