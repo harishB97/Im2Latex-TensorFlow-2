@@ -17,8 +17,8 @@ Download the data from **[this link](https://drive.google.com/file/d/18JW6Dn0M1T
 
 ## Sample results
 ---
-<img src="media\result22.jpg" width="60%" height="60%" align="center">
-<img src="media\result21.jpg" width="60%" height="60%" align="center">
+<img src="media\result22.jpg" width="80%" height="80%" align="center">
+<img src="media\result21.jpg" width="80%" height="80%" align="center">
 
 ## Model Performance
 ---
